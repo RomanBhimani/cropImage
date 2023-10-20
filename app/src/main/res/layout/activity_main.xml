@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/_5sdp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/btnCrop"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        android:text="Crop Image" />
+
+    <Button
+        android:id="@+id/btnPermision"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        android:text="Permission" />
+
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>

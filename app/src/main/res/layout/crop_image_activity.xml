@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<com.google.android.material.circularreveal.CircularRevealLinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp">
+    <ImageView
+        android:id="@+id/btnLeft"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@drawable/crop_image_menu_rotate_left"/>
+
+    <ImageView
+        android:id="@+id/btnRight"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@drawable/crop_image_menu_rotate_right"/>
+    <ImageView
+        android:id="@+id/btnFlip"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@drawable/crop_image_menu_flip"/>
+
+    <TextView
+        android:id="@+id/btnSave"
+        android:text="Save"
+        android:gravity="center"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@drawable/crop_image_menu_rotate_left"/>
+
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+    <com.rd.cropimagesingallery.cropImage.KeyboardCropImageView
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>
